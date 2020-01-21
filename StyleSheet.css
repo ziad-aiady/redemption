@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
   }
 
   header {
@@ -65,17 +66,24 @@ body {
 
   .form {
     text-align: center;
+    border-radius: 25px;
+    padding: 20px 10px;
+    
   }
 
   #form-search { 
     width: 450px;
     line-height: 32px;
     padding: 20px 10px;
+    border-radius: 10px;
+
   }
 
   .form #form-search {
-    padding: 0 8px;
+    padding: 60 8px;
   }
+
+  
 
   .buttons {
     text-align: center;
